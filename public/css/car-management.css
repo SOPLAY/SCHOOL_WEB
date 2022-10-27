@@ -1,0 +1,161 @@
+/* fix box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* clear base style */
+h1,
+h2,
+h3,
+h4,
+p {
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 50px 0 0 50px;
+}
+
+.inner-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.inner-header .inner-sub {
+  /* font-family: 'NanumBarunGothic'; */
+  margin-top: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.inner-input-section {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-input-section .input-items {
+  width: 325px;
+  height: 37px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.inner-input-section .input-items:nth-child(2n) {
+  margin-left: 60px;
+}
+.inner-input-section .input-items:nth-child(n + 3) {
+  margin-top: 16px;
+}
+
+.inner-input-section .input-items p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 37px;
+}
+.inner-input-section .input-items input {
+  width: 194px;
+  height: 37px;
+
+  border: 1px solid #000000;
+  border-radius: 4px;
+
+  padding: 10px 0 10px 16px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.inner-btn-section {
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-btn-section button {
+  width: 325px;
+  height: 65px;
+
+  background: #c6004d;
+
+  border-radius: 7px;
+  border: none;
+
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.inner-log-section {
+  margin-top: 77px;
+}
+.inner-log-section .inner-log-container {
+  margin-top: 16px;
+}
+.inner-log-container .log-items {
+  width: 760px;
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+}
+.inner-log-container .log-items div {
+  width: 60px;
+  height: 60px;
+
+  border: 1px solid #c6004d;
+  border-radius: 30px;
+}
+.inner-log-container .log-items div p {
+  color: #c6004d;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 60px;
+}
+.inner-log-container .log-items > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  line-height: 60px;
+}
+.inner-log-container .log-items .log-date {
+  width: 132px;
+  margin-left: 53px;
+}
+.inner-log-container .log-items .log-name {
+  margin-left: 69px;
+}
+.inner-log-container .log-items .log-car {
+  margin-left: 70px;
+}
+.inner-log-container .log-items .log-type {
+  margin-left: 64px;
+}
+.inner-log-container .log-items .log-state {
+  width: 57px;
+
+  margin-left: 61px;
+
+  text-align: end;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+
+  text-align: right;
+
+  color: #c6004d;
+}
+
+.inner-log-container .log-items .finished {
+  font-weight: 400;
+}
